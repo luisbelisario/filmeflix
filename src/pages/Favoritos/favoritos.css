@@ -1,0 +1,62 @@
+#meus-filmes {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#meus-filmes h1 {
+    margin-top: 80px;
+}
+
+#meus-filmes span {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    padding: 0;
+    margin-top: 30px;
+    list-style: none;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#botoes a {
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #FFF;
+    background-color: #FF0000;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#botoes a:hover {
+    background-color: #B22222;
+}
+
+#botoes button {
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #FFF;
+    background-color: #FF0000;
+    padding: 10px;
+    border-radius: 3px;
+    border-color: #FF0000;
+}
+
+#botoes button:hover {
+    background-color: #B22222;
+}

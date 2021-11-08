@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+.lista-filmes {
+    margin: 15px;
+
+}
+
+.lista-filmes article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    margin: 15px;
+    padding: 15px;
+}
+
+.lista-filmes strong {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.lista-filmes img {
+    width: 700px;
+    max-height: 350px;
+}
+
+/* a tag Link pode ser estilizada usando a tag a */
+.lista-filmes a {
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+    color: #FFF;
+    background-color: #FF0000;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.lista-filmes a:hover {
+    background-color: #B22222;
+}

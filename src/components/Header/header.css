@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+}
+
+.logo {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #FF0000;
+    cursor: pointer;
+}
+
+.salvos {
+    margin-right: 20px;
+    padding: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #FF0000;
+    border-radius: 3px;
+    padding: 10px;
+    color: #FFF;
+}
+
+.salvos:hover {
+    background-color: #B22222;
+}
